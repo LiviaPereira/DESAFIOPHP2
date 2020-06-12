@@ -73,8 +73,28 @@ label input, label textarea{
     border: 1px solid rgba(255, 255, 255, 0.5);
     padding: 5px;
     font-size: 1rem;
+    color: white;
 }
 
 label input:focus, label textarea:focus{
     outline: 2px solid rgba(255, 255, 255, 1);
+}
+
+button {
+    border: none;
+    padding: 10px 20px;
+    background-color: rgb(31, 0, 59);
+    color: white;
+    cursor: pointer;
+    font-size: 0.8rem;
+}
+
+button:hover{
+    background-color: rgb(65, 0, 126);
+}
+
+.controles {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
 }
